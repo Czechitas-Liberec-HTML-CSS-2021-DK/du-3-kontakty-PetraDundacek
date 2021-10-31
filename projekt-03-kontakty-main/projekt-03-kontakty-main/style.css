@@ -5,6 +5,41 @@ html { box-sizing: border-box; }
 body {
 	font-family: sans-serif;
 	font-size: 14px;
+	font-weight: bold;
 }
 
+.container {
+	display: flex;
+	background-color: #DCDCDC;
+	border-radius: 10px;
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.container2 {
+	display: flex;
+	display: table-column;
+	width: 22%;
+	background-color: white;
+	margin: 1rem;
+	padding: 1rem;
+	text-align: center;
+	border-radius: 10px;
+	flex-grow: 1;
+}
+
+.foto {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+ul {
+	margin-left: -2rem;
+}
+li{
+	display: inline-block;
+	width: 35px;
+	height:35px;
+
+}
 /* ---------------------------------------------------- */
